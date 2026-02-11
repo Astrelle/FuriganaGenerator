@@ -1,8 +1,11 @@
 import json
 import zipfile
 import re
+import os
 
-yomitan_jlpt_path = r'[Insert File Path]'
+
+
+yomitan_jlpt_path = os.path.join(os.path.dirname(__file__), "jlptDict.zip")
 
 def create_jlpt_map(yomitan_jlpt_zip_path):
     jlpt_map = {}
