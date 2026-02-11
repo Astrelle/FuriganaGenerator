@@ -1,4 +1,4 @@
 sudachipy
-sudachidict_full
+sudachidict_core
 pykakasi
 streamlit
